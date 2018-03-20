@@ -1,0 +1,26 @@
+{
+    "name": "vadiasov/chart-types",
+    "description": "Laravel package to create DB table 'chart_types' and to serve CRUD methods with this table",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": "5.*"
+    },
+    "author": {
+        "name": "Volodymyr Vadiasov ",
+        "email": "vadiasov.volodymyr@gmail.com"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vadiasov\\ChartTypes\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vadiasov\\ChartTypes\\ChartTypesServiceProvider"
+            ]
+        }
+    }
+}
